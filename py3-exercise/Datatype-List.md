@@ -18,6 +18,7 @@ print (NUM.reverse())
 ```
 
 </p>
+</details>
 
 ## List order -- sort
 
@@ -29,6 +30,7 @@ print (NUM.sort())
 ```
 
 </p>
+</details>
 
 ## List Locate element 
 
@@ -42,6 +44,7 @@ print ()
 ```
 
 </p>
+</details>
 
 Get the last elements
 
@@ -53,6 +56,7 @@ print ()
 ```
 
 </p>
+</details>
 
 Get all element
 
@@ -64,6 +68,7 @@ print ()
 ```
 
 </p>
+</details>
 
 Get the last 3 elements
 
@@ -75,6 +80,7 @@ print ()
 ```
 
 </p>
+</details>
 
 Get the first 3 elements 
 
@@ -86,6 +92,7 @@ print ()
 ```
 
 </p>
+</details>
 
 ## Modify List
 
@@ -99,6 +106,7 @@ print ()
 ```
 
 </p>
+</details>
 
 Modify the second element to 6
 
@@ -110,6 +118,6 @@ print ()
 ```
 
 </p>
-
+</details>
 ## List in List
 
