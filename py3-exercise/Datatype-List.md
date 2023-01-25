@@ -40,7 +40,7 @@ Get the first elements
 <p>
 
 ```py
-print ()
+print (list.fetch(0))
 ```
 
 </p>
@@ -52,7 +52,7 @@ Get the last elements
 <p>
 
 ```py
-print ()
+print (list[len(list)-1])
 ```
 
 </p>
@@ -64,7 +64,7 @@ Get all element
 <p>
 
 ```py
-print ()
+print (len(list))
 ```
 
 </p>
@@ -76,7 +76,7 @@ Get the last 3 elements
 <p>
 
 ```py
-print ()
+print (list.fetch(len(list)-3)
 ```
 
 </p>
@@ -88,7 +88,7 @@ Get the first 3 elements
 <p>
 
 ```py
-print ()
+print (list.fetch(3))
 ```
 
 </p>
@@ -102,7 +102,7 @@ Append 213 to list
 <p>
 
 ```py
-print ()
+print (list.append(213))
 ```
 
 </p>
@@ -114,7 +114,7 @@ Modify the second element to 6
 <p>
 
 ```py
-print ()
+print (list.append('6'))
 ```
 
 </p>
