@@ -1,7 +1,22 @@
 # List number -- GenericAlias
-
+for Python 3.10.4 , list method include
+```py
+dir(list)
+['append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+```
 ## Start from a define list
-
+help (list.pop)
+pop(self, index=-1, /)
+    Remove and return item at index (default last).
+    
+index(self, value, start=0, stop=9223372036854775807, /)
+    Return first index of value.
+    
+    Raises ValueError if the value is not present.
+remove(self, value, /)
+    Remove first occurrence of value.
+    
+    Raises ValueError if the value is not present.
 ```py
 NUM= [ 2, 5, 7, 100, 33, 77, 5]
 print (NUM)
@@ -120,4 +135,46 @@ print (list.append('6'))
 </p>
 </details>
 ## List in List
+
+## New List
+
+```py
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist=fruits
+print(newlist)
+```
+
+### what's happen ?
+
+```py
+print(newlist.clear())
+```
+<details><summary>show</summary>
+<p>
+remove all elements from newlist , got "[]"
+
+</p>
+</details>
+
+### what's happen ?
+
+```py
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+```
+<details><summary>show</summary>
+<p>
+
+```py
+['apple', 'banana', 'mango']
+## x get fruits elements one by one 
+## if x contain "a" then append to "newlist"
+```
+
+</p>
+</details>
+
 

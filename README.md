@@ -8,7 +8,7 @@
 # Python3 Exercise
 
 - [Data Type](py3-exercise/Datatype-List.md)
-- []()
+- [JSON](py3-exercise/json.md)
 
 # Python3 New Feature
 - [Data Type](py3-release/py3-new-datatype.md)
